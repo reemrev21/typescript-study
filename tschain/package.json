@@ -5,13 +5,13 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "dev": "nodemon --exec ts-node src/index.ts",
-    "start": "node build/index"
+    "dev": " nodemon --exec ts-node src/index.ts",
+    "start": "node build/index.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "ts-node": "^10.8.0",
+    "ts-node": "^10.8.1",
     "typescript": "^4.7.2"
   },
   "dependencies": {
