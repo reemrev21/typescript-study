@@ -3,6 +3,8 @@
   "compilerOptions": {
     "outDir": "build",
     "target": "ES6", // 컴파일 하고싶은 js 버전
-    "lib": ["ES6", "DOM"] // 실행 환경
+    "lib": ["ES6"], // 실행 환경
+    "esModuleInterop": true,
+    "module": "CommonJS"
   }
 }
